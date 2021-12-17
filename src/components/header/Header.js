@@ -11,8 +11,10 @@ export default function Header() {
 
     return (
         <>
-        <h1>Ultimos Sismos en Chile</h1>
-        <p>{ fecha }</p>        
+        <div className='header'>
+            <h1>Ultimos Sismos en Chile</h1>
+            <p>{ fecha }</p>  
+        </div>      
         </>
     )
 }
